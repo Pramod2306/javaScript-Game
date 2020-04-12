@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(19, 20, 20);
+}
+.card {
+  margin: 10% 20% 0% 30%;
+  height: auto;
+  width: 500px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2px 7px 6px 4px rgba(49, 49, 49, 0.836);
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 500px;
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 5%;
+}
+
+.score {
+  display: flex;
+  align-items: baseline;
+}
+.popup {
+  height: 100px;
+  width: 400px;
+  box-shadow: 2px 2px gray;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 5%;
+  margin-left: 4%;
+  background-color: rgb(245, 73, 73);
+  display: none;
+}
+#reset {
+  margin: 3% 45% 0% 43%;
+  background-color: aqua;
+  color: black;
+  border: 0px;
+  border-radius: 4px;
+  height: 30px;
+  width: 70px;
+}
+.itemholder {
+  padding: 2px;
+  border: 1px solid gray;
+  margin: 1px;
+}
