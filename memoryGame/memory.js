@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const popup = document.querySelector(".popup");
   const result = document.querySelector("#result");
   const reset = document.querySelector("#reset");
+
   let cardsChoosen = [];
   let cardChosenId = [];
   let cardsWon = [];
@@ -122,6 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function createBoard() {
     for (let i = 0; i < CardArray.length; i++) {
+      let images = new Image();
+      images.src = CardArray[i].img;
       let card = document.createElement("img");
       card.setAttribute("src", "images/cover.png");
       card.setAttribute("class", "itemholder");

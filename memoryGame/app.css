@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(19, 20, 20);
+  background-image: url("images/green_felt.jpg");
 }
 .card {
   margin: 10% 20% 0% 30%;
@@ -47,4 +47,5 @@ body {
   padding: 2px;
   border: 1px solid gray;
   margin: 1px;
+  border-radius: 5px;
 }
