@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wack A Mole</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="App.js"></script>
+  </head>
+  <body>
+    <div class="card">
+      <h3 style="text-align: center; " class="fontdesign">Wack a mole</h3>
+      <lable class="inline" style="margin-left: 5%;">Score:</lable>
+      <p id="score" class="inline" style="margin-left: 2px;">0</p>
+      <lable style="margin-left: 70%;">Time:</lable>
+      <p id="timer" class="inline" style="margin-left: 2px;">60</p>
+      <lable style="margin-left: 5%;">Level</lable>
+      <select id="level" class="button">
+          <option value="0">Select level</option>
+          <option value="1000">1</option>
+          <option value="800">2</option>
+          <option value="600">3</option>
+          <option value="400">4</option>
+          <option value="200">5</option>
+      </select>
+      <div class="grid">
+        <div class="popup">
+          <p style="text-align: center; color: rgb(245, 46, 46);">Time up!!</p>
+          <lable class="inline" style="margin-left: 40%;">Final Score:</lable>
+          <p id="finalResult" class="inline" style="text-align: center;"></p>
+            <button  id="reset" class="button ">Restart</button>
+          </p>
+        </div>
+
+        <div id="0" class="square"></div>
+        <div id="1" class="square"></div>
+        <div id="2" class="square"></div>
+        <div id="3" class="square"></div>
+        <div id="4" class="square"></div>
+        <div id="5" class="square"></div>
+        <div id="6" class="square"></div>
+        <div id="7" class="square"></div>
+        <div id="8" class="square"></div>
+      </div>
+    </div>
+  </body>
+</html>

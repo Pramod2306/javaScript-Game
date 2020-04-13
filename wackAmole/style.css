@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(124, 124, 124);
+  background-image: url("images/bg.png");
+  background-size: 100% 125%;
+}
+.fontdesign {
+  letter-spacing: 2px;
+  font-family: "Courier New", Courier, monospace;
+  color: rebeccapurple;
+  font-size: 30px;
+}
+.card {
+  height: auto;
+  width: 600px;
+  background-image: url("images/horizont.jpg");
+  background-size: cover;
+  background-color: aliceblue;
+  margin: 8% 20% 0% 25%;
+  border-radius: 10px;
+  padding-bottom: 2%;
+}
+.inline {
+  display: inline;
+}
+.grid {
+  display: flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  height: auto;
+  width: 370px;
+  margin: 10% 0% 10% 16%;
+  padding-left: 6%;
+  padding-top: 2%;
+  border-radius: 5px;
+}
+.square {
+  border: 1px solid sandybrown;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 8px 4px gray;
+}
+.mole {
+  background-image: url("images/mole.png");
+  background-color: aliceblue;
+}
+.popup {
+  position: absolute;
+  display: none;
+  height: 200px;
+  width: 400px;
+  background-color: aquamarine;
+  margin-top: 10%px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 5px rgb(85, 83, 83);
+}
+.button {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-top: 6%;
+}
