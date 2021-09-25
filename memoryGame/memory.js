@@ -4,35 +4,35 @@ document.addEventListener("DOMContentLoaded", () => {
   const CardArray = [
     {
       name: "basketball",
-      img: "images/Basketball.jpeg",
+      img: "memoryGame/images/Basketball.jpeg",
     },
     {
       name: "cake",
-      img: "images/cake.png",
+      img: "memoryGame/images/cake.png",
     },
     {
       name: "pie",
-      img: "images/pie.jpg",
+      img: "memoryGame/images/pie.jpg",
     },
     {
       name: "football",
-      img: "images/Football.png",
+      img: "memoryGame/images/Football.png",
     },
     {
       name: "basketball",
-      img: "images/Basketball.jpeg",
+      img: "memoryGame/images/Basketball.jpeg",
     },
     {
       name: "cake",
-      img: "images/cake.png",
+      img: "memoryGame/images/cake.png",
     },
     {
       name: "pie",
-      img: "images/pie.jpg",
+      img: "memoryGame/images/pie.jpg",
     },
     {
       name: "football",
-      img: "images/Football.png",
+      img: "memoryGame/images/Football.png",
     },
   ];
 
@@ -70,16 +70,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionOneId = cardChosenId[0];
     const optionTwoId = cardChosenId[1];
     if (cardsChoosen[0] == cardsChoosen[1]) {
-      cards[optionOneId].setAttribute("src", "images/white.png");
-      cards[optionTwoId].setAttribute("src", "images/white.png");
+      cards[optionOneId].setAttribute("src", "memoryGame/images/white.png");
+      cards[optionTwoId].setAttribute("src", "memoryGame/images/white.png");
       cards[optionOneId].setAttribute("style", "pointer-events:none");
       cards[optionTwoId].setAttribute("style", "pointer-events:none");
       cardsWon.push(cardsChoosen);
       hitpoint++;
       score.innerHTML = hitpoint;
     } else {
-      cards[optionOneId].setAttribute("src", "images/cover.png");
-      cards[optionTwoId].setAttribute("src", "images/cover.png");
+      cards[optionOneId].setAttribute("src", "memoryGame/images/cover.png");
+      cards[optionTwoId].setAttribute("src", "memoryGame/images/cover.png");
       cards[optionOneId].setAttribute("style", "pointer-events:auto");
       cards[optionTwoId].setAttribute("style", "pointer-events:auto");
       missPoint++;
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let images = new Image();
       images.src = CardArray[i].img;
       let card = document.createElement("img");
-      card.setAttribute("src", "images/cover.png");
+      card.setAttribute("src", "memoryGame/images/cover.png");
       card.setAttribute("class", "itemholder");
       card.setAttribute("data-id", i);
       card.addEventListener("click", flipCard);
