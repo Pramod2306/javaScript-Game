@@ -9,12 +9,22 @@
   </head>
   <body>
     <div class="card">
-      <h3 style="text-align: center; " class="fontdesign">Wack a mole</h3>
-      <lable class="inline" style="margin-left: 5%;">Score:</lable>
-      <p id="score" class="inline" style="margin-left: 2px;">0</p>
-      <lable style="margin-left: 70%;">Time:</lable>
-      <p id="timer" class="inline" style="margin-left: 2px;">60</p>
-      <lable style="margin-left: 5%;">Level</lable>
+      <h3 style="text-align: center; padding-top:20px;" class="fontdesign">Wack a mole</h3>
+      <div class="d-flex justify-content-between" style="margin: 0 auto; max-width: 550px;"> 
+        <div class="d-flex align-item-center">
+          <lable >Score:</lable>
+          <p id="score" >0</p>
+        </div>
+        <div class="d-flex align-item-center">
+          <lable >Time:</lable>
+          <p id="timer"  >60</p>
+        </div>
+      
+       
+      </div>
+
+     <div class="d-flex align-item-center" style="margin: 10px auto; max-width: 550px;">
+      <lable style="margin-right: 5%;">Level</lable>
       <select id="level" class="button">
           <option value="0">Select level</option>
           <option value="1000">1</option>
@@ -23,12 +33,13 @@
           <option value="400">4</option>
           <option value="200">5</option>
       </select>
+      </div>
       <div class="grid">
         <div class="popup">
-          <p style="text-align: center; color: rgb(245, 46, 46);">Time up!!</p>
-          <lable class="inline" style="margin-left: 40%;">Final Score:</lable>
-          <p id="finalResult" class="inline" style="text-align: center;"></p>
-            <button  id="reset" class="button ">Restart</button>
+          <p style=" color: rgb(245, 46, 46);">Time up!!</p>
+          <lable class="inline" >Final Score:</lable>
+          <p id="finalResult" class="inline" ></p>
+          <button  id="reset" class="button ">Restart</button>
           </p>
         </div>
 

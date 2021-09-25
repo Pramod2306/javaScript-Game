@@ -2,7 +2,7 @@ body {
   background-image: url("images/green_felt.jpg");
 }
 .card {
-  margin: 10% 20% 0% 30%;
+  margin: 10% auto;
   height: auto;
   width: 500px;
   background-color: whitesmoke;

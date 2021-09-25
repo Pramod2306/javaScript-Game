@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   //mole movment
-
+  
   function moleMovment(speed) {
     timerId = setInterval(randomSquare, speed);
   }
@@ -45,13 +45,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentTime <= 0) {
       clearInterval(timerId);
       clearInterval(timeCounter);
-      popup.setAttribute("style", "display:block");
+      popup.setAttribute("style", "display:flex");
       finalResult.textContent = result;
     }
     console.log("Current", currentTime);
   }
 
-  reset.addEventListener("click", () => {
+  reset.addEventListener("click", (event) => {
     event.preventDefault();
     location.reload();
   });
